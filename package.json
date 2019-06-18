@@ -1,11 +1,11 @@
 {
   "name": "print-console-status",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Print pretty console status",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "tsc && ts-node ./test/index.ts",
-    "build" : "tsc",
+    "build": "tsc",
     "prepublishOnly": "tsc"
   },
   "keywords": [
@@ -15,7 +15,10 @@
   ],
   "author": "Nishkal Kashyap <hello@nishkal.in>",
   "email": "hello@nishkal.in",
-  "homepage": "https://quarkjs.io",
+  "homepage": "https://github.com/Nishkalkashyap/print-console-status",
+  "repository": {
+    "url": "https://github.com/Nishkalkashyap/print-console-status"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2"
