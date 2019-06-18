@@ -1,6 +1,6 @@
 {
   "name": "print-console-status",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Print pretty console status",
   "main": "dist/index.js",
   "scripts": {
