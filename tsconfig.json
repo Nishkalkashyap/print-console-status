@@ -5,7 +5,7 @@
     "importHelpers": true,
     "outDir": "./dist",
     "inlineSourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -15,16 +15,12 @@
       "dom"
     ],
     "baseUrl": "./",
-    "module": "umd",
-    "types": [
-      "node"
-    ],
+    "module": "commonjs",
     "typeRoots": [
       "node_modules/@types"
     ],
     "strict": false,
-    "skipLibCheck": true,
-    "allowJs": true
+    "skipLibCheck": true
   },
     "include": [
     "src/*",

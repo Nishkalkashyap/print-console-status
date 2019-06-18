@@ -1,19 +1,30 @@
 {
   "name": "print-console-status",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Print pretty console status",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && ts-node ./test/index.ts",
+    "build" : "tsc",
+    "prepublishOnly": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "print",
+    "console",
+    "log"
+  ],
+  "author": "Nishkal Kashyap <hello@nishkal.in>",
+  "email": "hello@nishkal.in",
+  "homepage": "https://quarkjs.io",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2"
   },
   "devDependencies": {
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
-  }
+  },
+  "files": [
+    "dist/"
+  ]
 }
